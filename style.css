@@ -1,0 +1,33 @@
+body{
+  text-align: center; }
+
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  align-items: center; }
+
+#contents{
+  display:block;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  width: 600px;
+  padding-top: 20px;
+ }
+
+ul{
+  list-style: none;
+  line-height: 40px;
+  padding: 0;
+  text-align: left;  }
+
+.media{
+  text-align: center;
+  line-height: 50px;
+}
+
+b{
+  font-size: 20px;
+}
